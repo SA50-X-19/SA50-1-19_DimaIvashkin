@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+  }
+  
+  .header {
+    width: 100%;
+    height: 790px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  .sign{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .links{
+    display: inline-block;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .hl{
+    display: flex;
+  
+  }
+  
+  .hr{
+    display: flex;
+    
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    justify-content: space-around;
+  }
+  
+  .links_block{
+    display: flex;
+    width: 580px;
+    
+    justify-content: space-around;
+  }
+  
+  button {
+    height: 50px;
+    width: 120px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: Transparent;
+    color: white;
+  }
+  
+  .hr1{
+    display: flex;
+    
+  }
+  
+  .link:hover{
+    background-color: #FF9900;   
+    border-radius: 4px;
+    color:white;
+    font-size: 30px;
+    transition: 0.7s;
+  }
+  
+  .links:active{
+    transform:scaleX(-1);
+    transition: 0.1s;
+  }
+  
+  .search-icon:hover{
+    transform: rotate(720deg);
+    transition: 0.7s;
+  }
+  
+  .menu__links:hover{
+    transform: translateY(10px);
+    transition: 0.8s;
+  }
+  
+  
+  .search-icon{
+    filter: invert(1);
+  }
